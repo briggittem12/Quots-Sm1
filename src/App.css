@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section__container {
+    display: flex;
+    height: 200px;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    width: 500px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+.icon__quots {
+    font-size: 40px;
+}
+.quote__text {
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: break-spaces;
+}
+
+.author__text {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+}
+.card__btn {
+    position: relative;
+    bottom: 50px;
+    left: 225px
+}
+.btn {
+    color: white;
+    border: 0;
+    width: 40px;
+    aspect-ratio: 1;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
