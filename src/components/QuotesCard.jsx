@@ -8,6 +8,7 @@ const QuotesCard = ({formatQuot, anyColors}) => {
     color: anyColors
   }
 
+
   return (
     <section className='section__container' style={useStyle}>
       <div className='card'>
